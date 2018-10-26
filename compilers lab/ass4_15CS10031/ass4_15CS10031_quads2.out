@@ -1,0 +1,697 @@
+================================================================================
+Symbol Table: Global                                         Parent: null
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+main            int             function                4       0       main
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: main                                           Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+retVal          int             local                   4       0       null
+a               int             local                   4       4       null
+m               Matrix(2, 3 ,double)local                   48      8       null
+t00             int             temp        2           4       56      null
+t01             int             temp        3           4       60      null
+t02             int             temp        1           4       64      null
+t03             int             temp        2           4       68      null
+t04             double          temp                    8       72      null
+t05             double          temp                    8       80      null
+t06             double          temp                    8       88      null
+t07             double          temp                    8       96      null
+t08             double          temp                    8       104     null
+t09             int             temp        1           4       112     null
+t10             int             temp        2           4       116     null
+t11             double          temp                    8       120     null
+t12             double          temp                    8       128     null
+t13             double          temp                    8       136     null
+t14             double          temp                    8       144     null
+t15             double          temp                    8       152     null
+t16             int             temp        1           4       160     null
+t17             int             temp        1           4       164     null
+t18             double          temp                    8       168     null
+t19             double          temp                    8       176     null
+t20             double          temp                    8       184     null
+t21             double          temp                    8       192     null
+t22             int             temp        1           4       200     null
+t23             int             temp        1           4       204     null
+t24             double          temp                    8       208     null
+t25             double          temp                    8       216     null
+t26             double          temp                    8       224     null
+t27             double          temp                    8       232     null
+t28             int             temp        1           4       240     null
+t29             int             temp        1           4       244     null
+t30             double          temp                    8       248     null
+t31             double          temp                    8       256     null
+t32             double          temp                    8       264     null
+t33             double          temp                    8       272     null
+t34             int             temp        1           4       280     null
+t35             int             temp        1           4       284     null
+t36             double          temp                    8       288     null
+t37             double          temp                    8       296     null
+t38             double          temp                    8       304     null
+t39             double          temp                    8       312     null
+t40             double          temp                    8       320     null
+t41             int             temp        1           4       328     null
+t42             int             temp        1           4       332     null
+t43             double          temp                    8       336     null
+t44             double          temp                    8       344     null
+t45             double          temp                    8       352     null
+t46             ptr(Matrix(2, 3 ,double))temp                    4       360     null
+t47             double          temp                    8       364     null
+t48             int             temp        1           4       372     null
+t49             int             temp        1           4       376     null
+t50             double          temp                    8       380     null
+t51             double          temp                    8       388     null
+t52             double          temp                    8       396     null
+t53             double          temp                    8       404     null
+t54             double          temp                    8       412     null
+t55             int             temp        1           4       420     null
+t56             int             temp        1           4       424     null
+t57             double          temp                    8       428     null
+t58             double          temp                    8       436     null
+t59             double          temp                    8       444     null
+t60             double          temp                    8       452     null
+t61             double          temp                    8       460     null
+t62             double          temp                    8       468     null
+t63             int             temp        1           4       476     null
+t64             int             temp        1           4       480     null
+t65             double          temp                    8       484     null
+t66             double          temp                    8       492     null
+t67             double          temp                    8       500     null
+t68             int             temp                    4       508     null
+t69             int             temp        1           4       512     null
+t70             int             temp        1           4       516     null
+t71             double          temp                    8       520     null
+t72             double          temp                    8       528     null
+t73             double          temp                    8       536     null
+t74             int             temp        1           4       544     null
+t75             int             temp        2           4       548     null
+t76             int             temp        2           4       552     null
+t77             double          temp                    8       556     null
+t78             double          temp                    8       564     null
+t79             double          temp                    8       572     null
+t80             int             temp        1           4       580     null
+t81             int             temp        1           4       584     null
+t82             double          temp                    8       588     null
+t83             double          temp                    8       596     null
+t84             double          temp                    8       604     null
+t85             int             temp        1           4       612     null
+t86             int             temp        1           4       616     null
+t87             double          temp                    8       620     null
+t88             double          temp                    8       628     null
+t89             double          temp                    8       636     null
+t90             int             temp        1           4       644     null
+t91             int             temp        1           4       648     null
+t92             double          temp                    8       652     null
+t93             double          temp                    8       660     null
+t94             double          temp                    8       668     null
+t95             int             temp        1           4       676     null
+t96             int             temp        1           4       680     null
+t97             double          temp                    8       684     null
+t98             double          temp                    8       692     null
+t99             double          temp                    8       700     null
+t100            int             temp        1           4       708     null
+t101            int             temp        1           4       712     null
+t102            int             temp        1           4       716     null
+t103            double          temp                    8       720     null
+t104            double          temp                    8       728     null
+t105            double          temp                    8       736     null
+t106            int             temp        1           4       744     null
+t107            int             temp        1           4       748     null
+t108            int             temp        1           4       752     null
+t109            double          temp                    8       756     null
+t110            double          temp                    8       764     null
+t111            double          temp                    8       772     null
+t112            int             temp        1           4       780     null
+t113            int             temp        1           4       784     null
+t114            int             temp        1           4       788     null
+t115            double          temp                    8       792     null
+t116            double          temp                    8       800     null
+t117            double          temp                    8       808     null
+t118            int             temp        1           4       816     null
+t119            int             temp        1           4       820     null
+t120            double          temp                    8       824     null
+t121            double          temp                    8       832     null
+t122            double          temp                    8       840     null
+t123            int             temp        1           4       848     null
+t124            int             temp        1           4       852     null
+t125            double          temp                    8       856     null
+t126            double          temp                    8       864     null
+t127            double          temp                    8       872     null
+t128            int             temp        1           4       880     null
+t129            int             temp        1           4       884     null
+t130            double          temp                    8       888     null
+t131            double          temp                    8       896     null
+t132            double          temp                    8       904     null
+t133            int             temp        1           4       912     null
+t134            int             temp        1           4       916     null
+t135            double          temp                    8       920     null
+t136            double          temp                    8       928     null
+t137            double          temp                    8       936     null
+t138            int             temp        1           4       944     null
+t139            int             temp        1           4       948     null
+t140            double          temp                    8       952     null
+t141            double          temp                    8       960     null
+t142            double          temp                    8       968     null
+t143            int             temp        1           4       976     null
+t144            int             temp        1           4       980     null
+t145            double          temp                    8       984     null
+t146            double          temp                    8       992     null
+t147            double          temp                    8       1000    null
+t148            int             temp        1           4       1008    null
+t149            int             temp        1           4       1012    null
+t150            double          temp                    8       1016    null
+t151            double          temp                    8       1024    null
+t152            double          temp                    8       1032    null
+t153            int             temp        1           4       1040    null
+t154            int             temp        1           4       1044    null
+t155            double          temp                    8       1048    null
+t156            double          temp                    8       1056    null
+t157            double          temp                    8       1064    null
+t158            int             temp        1           4       1072    null
+t159            int             temp        1           4       1076    null
+t160            double          temp                    8       1080    null
+t161            double          temp                    8       1088    null
+t162            double          temp                    8       1096    null
+t163            int             temp        1           4       1104    null
+t164            int             temp        1           4       1108    null
+t165            double          temp                    8       1112    null
+t166            double          temp                    8       1120    null
+t167            double          temp                    8       1128    null
+t168            double          temp                    8       1136    null
+t169            int             temp        1           4       1144    null
+t170            int             temp        1           4       1148    null
+t171            double          temp                    8       1152    null
+t172            double          temp                    8       1160    null
+t173            double          temp                    8       1168    null
+t174            double          temp                    8       1176    null
+t175            int             temp        1           4       1184    null
+t176            int             temp        1           4       1188    null
+t177            double          temp                    8       1192    null
+t178            double          temp                    8       1200    null
+t179            double          temp                    8       1208    null
+t180            int             temp                    4       1216    null
+t181            int             temp        1           4       1220    null
+t182            int             temp        1           4       1224    null
+t183            double          temp                    8       1228    null
+t184            double          temp                    8       1236    null
+t185            double          temp                    8       1244    null
+t186            int             temp        1           4       1252    null
+t187            int             temp        1           4       1256    null
+t188            double          temp                    8       1260    null
+t189            double          temp                    8       1268    null
+t190            double          temp                    8       1276    null
+t191            int             temp        1           4       1284    null
+t192            int             temp                    4       1288    null
+t193            int             temp        1           4       1292    null
+t194            int             temp        1           4       1296    null
+t195            double          temp                    8       1300    null
+t196            double          temp                    8       1308    null
+t197            double          temp                    8       1316    null
+t198            int             temp        1           4       1324    null
+t199            int             temp                    4       1328    null
+t200            int             temp        1           4       1332    null
+t201            int             temp        1           4       1336    null
+t202            double          temp                    8       1340    null
+t203            double          temp                    8       1348    null
+t204            double          temp                    8       1356    null
+t205            int             temp        1           4       1364    null
+t206            int             temp                    4       1368    null
+t207            int             temp        1           4       1372    null
+t208            int             temp        1           4       1376    null
+t209            double          temp                    8       1380    null
+t210            double          temp                    8       1388    null
+t211            double          temp                    8       1396    null
+t212            int             temp        1           4       1404    null
+t213            int             temp                    4       1408    null
+t214            int             temp        1           4       1412    null
+t215            int             temp        1           4       1416    null
+t216            double          temp                    8       1420    null
+t217            double          temp                    8       1428    null
+t218            double          temp                    8       1436    null
+t219            int             temp        1           4       1444    null
+t220            int             temp                    4       1448    null
+t221            int             temp        1           4       1452    null
+t222            int             temp        1           4       1456    null
+t223            double          temp                    8       1460    null
+t224            double          temp                    8       1468    null
+t225            double          temp                    8       1476    null
+t226            int             temp        1           4       1484    null
+t227            int             temp                    4       1488    null
+t228            int             temp        1           4       1492    null
+t229            int             temp                    4       1496    null
+t230            int             temp                    4       1500    null
+t231            int             temp        1           4       1504    null
+t232            int             temp        1           4       1508    null
+t233            double          temp                    8       1512    null
+t234            double          temp                    8       1520    null
+t235            double          temp                    8       1528    null
+t236            int             temp        1           4       1536    null
+t237            int             temp                    4       1540    null
+t238            int             temp                    4       1544    null
+t239            int             temp        1           4       1548    null
+t240            int             temp                    4       1552    null
+t241            int             temp                    4       1556    null
+t242            int             temp        1           4       1560    null
+t243            int             temp        1           4       1564    null
+t244            double          temp                    8       1568    null
+t245            double          temp                    8       1576    null
+t246            double          temp                    8       1584    null
+t247            int             temp        1           4       1592    null
+t248            int             temp                    4       1596    null
+t249            int             temp                    4       1600    null
+t250            int             temp        1           4       1604    null
+t251            int             temp                    4       1608    null
+t252            int             temp        1           4       1612    null
+t253            int             temp        1           4       1616    null
+t254            double          temp                    8       1620    null
+t255            double          temp                    8       1628    null
+t256            double          temp                    8       1636    null
+t257            int             temp        1           4       1644    null
+t258            int             temp                    4       1648    null
+t259            int             temp        1           4       1652    null
+t260            int             temp                    4       1656    null
+t261            int             temp        1           4       1660    null
+t262            int             temp        1           4       1664    null
+t263            double          temp                    8       1668    null
+t264            double          temp                    8       1676    null
+t265            double          temp                    8       1684    null
+t266            int             temp        1           4       1692    null
+t267            int             temp                    4       1696    null
+t268            int             temp        1           4       1700    null
+--------------------------------------------------------------------------------
+
+==============================
+Quad Translation
+------------------------------
+
+main: 
+
+	1   :	t00 = 2
+	2   :	t01 = 3
+	3   :	t02 = 1
+	4   :	t03 = 2
+	5   :	t04 = t02 * 8
+	6   :	t04 = t04 * 3
+	7   :	t05 = t03 * 8
+	8   :	t04 = t05 + t04
+	9   :	t06 = t04
+	10  :	t08 = m[t06]
+	11  :	t07 = t08
+	12  :	t08 = t08 + 1
+	13  :	m[t06] = t08
+	14  :	t09 = 1
+	15  :	t10 = 2
+	16  :	t11 = t09 * 8
+	17  :	t11 = t11 * 3
+	18  :	t12 = t10 * 8
+	19  :	t11 = t12 + t11
+	20  :	t13 = t11
+	21  :	t15 = m[t13]
+	22  :	t14 = t15
+	23  :	t15 = t15 - 1
+	24  :	m[t13] = t15
+	25  :	t16 = 1
+	26  :	t17 = 1
+	27  :	t18 = t16 * 8
+	28  :	t18 = t18 * 3
+	29  :	t19 = t17 * 8
+	30  :	t18 = t19 + t18
+	31  :	t20 = t18
+	32  :	t21 = m[t20]
+	33  :	t21 = t21 + 1
+	34  :	m[t20] = t21
+	35  :	t22 = 1
+	36  :	t23 = 1
+	37  :	t24 = t22 * 8
+	38  :	t24 = t24 * 3
+	39  :	t25 = t23 * 8
+	40  :	t24 = t25 + t24
+	41  :	t26 = t24
+	42  :	t27 = m[t26]
+	43  :	t27 = t27 - 1
+	44  :	m[t26] = t27
+	45  :	t28 = 1
+	46  :	t29 = 1
+	47  :	t30 = t28 * 8
+	48  :	t30 = t30 * 3
+	49  :	t31 = t29 * 8
+	50  :	t30 = t31 + t30
+	51  :	t32 = t30
+	52  :	t33 = m[t32]
+	53  :	t34 = 1
+	54  :	t35 = 1
+	55  :	t36 = t34 * 8
+	56  :	t36 = t36 * 3
+	57  :	t37 = t35 * 8
+	58  :	t36 = t37 + t36
+	59  :	t38 = t36
+	60  :	t39 = m[t38]
+	61  :	t40 = -t39
+	62  :	t41 = 1
+	63  :	t42 = 1
+	64  :	t43 = t41 * 8
+	65  :	t43 = t43 * 3
+	66  :	t44 = t42 * 8
+	67  :	t43 = t44 + t43
+	68  :	t45 = t43
+	69  :	t47 = m[t45]
+	70  :	t46 = &t47
+	71  :	t48 = 1
+	72  :	t49 = 1
+	73  :	t50 = t48 * 8
+	74  :	t50 = t50 * 3
+	75  :	t51 = t49 * 8
+	76  :	t50 = t51 + t50
+	77  :	t52 = t50
+	78  :	t54 = m[t52]
+	79  :	t53 = *t54
+	80  :	t55 = 1
+	81  :	t56 = 1
+	82  :	t57 = t55 * 8
+	83  :	t57 = t57 * 3
+	84  :	t58 = t56 * 8
+	85  :	t57 = t58 + t57
+	86  :	t59 = t57
+	87  :	t61 = m[t59]
+	88  :	t60 = t61
+	89  :	t62 = 3 * 2
+	90  :	t62 = t62 - t59
+	91  :	t62 = m[t62]
+	92  :	m[t59] = t62
+	93  :	t63 = 1
+	94  :	t64 = 1
+	95  :	t65 = t63 * 8
+	96  :	t65 = t65 * 3
+	97  :	t66 = t64 * 8
+	98  :	t65 = t66 + t65
+	99  :	t67 = t65
+	100 :	a = m
+	101 :	t69 = 1
+	102 :	t70 = 1
+	103 :	t71 = t69 * 8
+	104 :	t71 = t71 * 3
+	105 :	t72 = t70 * 8
+	106 :	t71 = t72 + t71
+	107 :	t73 = t71
+	108 :	t74 = 1
+	109 :	m[t73] = t74
+	110 :	t75 = 2
+	111 :	t76 = 2
+	112 :	t77 = t75 * 8
+	113 :	t77 = t77 * 3
+	114 :	t78 = t76 * 8
+	115 :	t77 = t78 + t77
+	116 :	t79 = t77
+	117 :	t80 = 1
+	118 :	t81 = 1
+	119 :	t82 = t80 * 8
+	120 :	t82 = t82 * 3
+	121 :	t83 = t81 * 8
+	122 :	t82 = t83 + t82
+	123 :	t84 = t82
+	124 :	m[t79] = m
+	125 :	t85 = 1
+	126 :	t86 = 1
+	127 :	t87 = t85 * 8
+	128 :	t87 = t87 * 3
+	129 :	t88 = t86 * 8
+	130 :	t87 = t88 + t87
+	131 :	t89 = t87
+	132 :	t90 = 1
+	133 :	t91 = 1
+	134 :	t92 = t90 * 8
+	135 :	t92 = t92 * 3
+	136 :	t93 = t91 * 8
+	137 :	t92 = t93 + t92
+	138 :	t94 = t92
+	139 :	m[t89] = m
+	140 :	t95 = 1
+	141 :	t96 = 1
+	142 :	t97 = t95 * 8
+	143 :	t97 = t97 * 3
+	144 :	t98 = t96 * 8
+	145 :	t97 = t98 + t97
+	146 :	t99 = t97
+	147 :	t100 = 1
+	148 :	m[t99] = t100
+	149 :	t101 = 1
+	150 :	t102 = 1
+	151 :	t103 = t101 * 8
+	152 :	t103 = t103 * 3
+	153 :	t104 = t102 * 8
+	154 :	t103 = t104 + t103
+	155 :	t105 = t103
+	156 :	t106 = 1
+	157 :	m[t105] = t106
+	158 :	t107 = 1
+	159 :	t108 = 1
+	160 :	t109 = t107 * 8
+	161 :	t109 = t109 * 3
+	162 :	t110 = t108 * 8
+	163 :	t109 = t110 + t109
+	164 :	t111 = t109
+	165 :	t112 = 1
+	166 :	m[t111] = t112
+	167 :	t113 = 1
+	168 :	t114 = 1
+	169 :	t115 = t113 * 8
+	170 :	t115 = t115 * 3
+	171 :	t116 = t114 * 8
+	172 :	t115 = t116 + t115
+	173 :	t117 = t115
+	174 :	t118 = 1
+	175 :	t119 = 1
+	176 :	t120 = t118 * 8
+	177 :	t120 = t120 * 3
+	178 :	t121 = t119 * 8
+	179 :	t120 = t121 + t120
+	180 :	t122 = t120
+	181 :	m[t117] = m
+	182 :	t123 = 1
+	183 :	t124 = 1
+	184 :	t125 = t123 * 8
+	185 :	t125 = t125 * 3
+	186 :	t126 = t124 * 8
+	187 :	t125 = t126 + t125
+	188 :	t127 = t125
+	189 :	t128 = 1
+	190 :	t129 = 1
+	191 :	t130 = t128 * 8
+	192 :	t130 = t130 * 3
+	193 :	t131 = t129 * 8
+	194 :	t130 = t131 + t130
+	195 :	t132 = t130
+	196 :	m[t127] = m
+	197 :	t133 = 1
+	198 :	t134 = 1
+	199 :	t135 = t133 * 8
+	200 :	t135 = t135 * 3
+	201 :	t136 = t134 * 8
+	202 :	t135 = t136 + t135
+	203 :	t137 = t135
+	204 :	t138 = 1
+	205 :	t139 = 1
+	206 :	t140 = t138 * 8
+	207 :	t140 = t140 * 3
+	208 :	t141 = t139 * 8
+	209 :	t140 = t141 + t140
+	210 :	t142 = t140
+	211 :	m[t137] = m
+	212 :	t143 = 1
+	213 :	t144 = 1
+	214 :	t145 = t143 * 8
+	215 :	t145 = t145 * 3
+	216 :	t146 = t144 * 8
+	217 :	t145 = t146 + t145
+	218 :	t147 = t145
+	219 :	t148 = 1
+	220 :	t149 = 1
+	221 :	t150 = t148 * 8
+	222 :	t150 = t150 * 3
+	223 :	t151 = t149 * 8
+	224 :	t150 = t151 + t150
+	225 :	t152 = t150
+	226 :	m[t147] = m
+	227 :	t153 = 1
+	228 :	t154 = 1
+	229 :	t155 = t153 * 8
+	230 :	t155 = t155 * 3
+	231 :	t156 = t154 * 8
+	232 :	t155 = t156 + t155
+	233 :	t157 = t155
+	234 :	t158 = 1
+	235 :	t159 = 1
+	236 :	t160 = t158 * 8
+	237 :	t160 = t160 * 3
+	238 :	t161 = t159 * 8
+	239 :	t160 = t161 + t160
+	240 :	t162 = t160
+	241 :	m[t157] = m
+	242 :	t163 = 1
+	243 :	t164 = 1
+	244 :	t165 = t163 * 8
+	245 :	t165 = t165 * 3
+	246 :	t166 = t164 * 8
+	247 :	t165 = t166 + t165
+	248 :	t167 = t165
+	249 :	if a == m goto 252
+	250 :	goto 253
+	251 :	goto 253
+	252 :	goto 253
+	253 :	t169 = 1
+	254 :	t170 = 1
+	255 :	t171 = t169 * 8
+	256 :	t171 = t171 * 3
+	257 :	t172 = t170 * 8
+	258 :	t171 = t172 + t171
+	259 :	t173 = t171
+	260 :	if a != m goto 263
+	261 :	goto 264
+	262 :	goto 264
+	263 :	goto 264
+	264 :	t175 = 1
+	265 :	t176 = 1
+	266 :	t177 = t175 * 8
+	267 :	t177 = t177 * 3
+	268 :	t178 = t176 * 8
+	269 :	t177 = t178 + t177
+	270 :	t179 = t177
+	271 :	if m == a goto 274
+	272 :	goto 275
+	273 :	goto 275
+	274 :	goto 275
+	275 :	t181 = 1
+	276 :	t182 = 1
+	277 :	t183 = t181 * 8
+	278 :	t183 = t183 * 3
+	279 :	t184 = t182 * 8
+	280 :	t183 = t184 + t183
+	281 :	t185 = t183
+	282 :	t186 = 1
+	283 :	t187 = 1
+	284 :	t188 = t186 * 8
+	285 :	t188 = t188 * 3
+	286 :	t189 = t187 * 8
+	287 :	t188 = t189 + t188
+	288 :	t190 = t188
+	289 :	if m == m goto 292
+	290 :	goto 293
+	291 :	goto 293
+	292 :	goto 293
+	293 :	t191 = 1
+	294 :	if a != t191 goto 297
+	295 :	goto 298
+	296 :	goto 298
+	297 :	goto 298
+	298 :	t193 = 1
+	299 :	t194 = 1
+	300 :	t195 = t193 * 8
+	301 :	t195 = t195 * 3
+	302 :	t196 = t194 * 8
+	303 :	t195 = t196 + t195
+	304 :	t197 = t195
+	305 :	t198 = 1
+	306 :	if m != t198 goto 309
+	307 :	goto 310
+	308 :	goto 310
+	309 :	goto 310
+	310 :	t200 = 1
+	311 :	t201 = 1
+	312 :	t202 = t200 * 8
+	313 :	t202 = t202 * 3
+	314 :	t203 = t201 * 8
+	315 :	t202 = t203 + t202
+	316 :	t204 = t202
+	317 :	t205 = 1
+	318 :	if m > t205 goto 321
+	319 :	goto 322
+	320 :	goto 322
+	321 :	goto 322
+	322 :	t207 = 1
+	323 :	t208 = 1
+	324 :	t209 = t207 * 8
+	325 :	t209 = t209 * 3
+	326 :	t210 = t208 * 8
+	327 :	t209 = t210 + t209
+	328 :	t211 = t209
+	329 :	t212 = 1
+	330 :	if m < t212 goto 333
+	331 :	goto 334
+	332 :	goto 334
+	333 :	goto 334
+	334 :	t214 = 1
+	335 :	t215 = 1
+	336 :	t216 = t214 * 8
+	337 :	t216 = t216 * 3
+	338 :	t217 = t215 * 8
+	339 :	t216 = t217 + t216
+	340 :	t218 = t216
+	341 :	t219 = 1
+	342 :	if m <= t219 goto 345
+	343 :	goto 346
+	344 :	goto 346
+	345 :	goto 346
+	346 :	t221 = 1
+	347 :	t222 = 1
+	348 :	t223 = t221 * 8
+	349 :	t223 = t223 * 3
+	350 :	t224 = t222 * 8
+	351 :	t223 = t224 + t223
+	352 :	t225 = t223
+	353 :	t226 = 1
+	354 :	if m <= t226 goto 357
+	355 :	goto 358
+	356 :	goto 358
+	357 :	goto 358
+	358 :	t228 = 1
+	359 :	t230 = a & t228
+	360 :	t231 = 1
+	361 :	t232 = 1
+	362 :	t233 = t231 * 8
+	363 :	t233 = t233 * 3
+	364 :	t234 = t232 * 8
+	365 :	t233 = t234 + t233
+	366 :	t235 = t233
+	367 :	t236 = 1
+	368 :	t238 = m & t236
+	369 :	t239 = 1
+	370 :	t241 = a | t239
+	371 :	t242 = 1
+	372 :	t243 = 1
+	373 :	t244 = t242 * 8
+	374 :	t244 = t244 * 3
+	375 :	t245 = t243 * 8
+	376 :	t244 = t245 + t244
+	377 :	t246 = t244
+	378 :	t247 = 1
+	379 :	t249 = m | t247
+	380 :	t250 = 1
+	381 :	t251 = a << t250
+	382 :	t252 = 1
+	383 :	t253 = 1
+	384 :	t254 = t252 * 8
+	385 :	t254 = t254 * 3
+	386 :	t255 = t253 * 8
+	387 :	t254 = t255 + t254
+	388 :	t256 = t254
+	389 :	t257 = 1
+	390 :	t258 = m << t257
+	391 :	t259 = 1
+	392 :	t260 = a >> t259
+	393 :	t261 = 1
+	394 :	t262 = 1
+	395 :	t263 = t261 * 8
+	396 :	t263 = t263 * 3
+	397 :	t264 = t262 * 8
+	398 :	t263 = t264 + t263
+	399 :	t265 = t263
+	400 :	t266 = 1
+	401 :	t267 = m >> t266
+	402 :	t268 = 1
+	403 :	ret t268
+------------------------------

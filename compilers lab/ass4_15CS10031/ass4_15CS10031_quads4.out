@@ -1,0 +1,92 @@
+================================================================================
+Symbol Table: Global                                         Parent: null
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+test            int             local       4           4       0       null
+t00             int             temp        4           4       4       null
+main            void            function                0       8       main
+sumupton        int             function                4       8       sumupton
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: main                                           Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+n               int             local       6           4       0       null
+t00             int             temp        6           4       4       null
+sm              int             local                   4       8       null
+sumupton        int             local                   4       12      null
+t01             int             temp        1           4       16      null
+t02             int             temp                    4       20      null
+t03             int             temp                    4       24      null
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: sumupton                                       Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+n               int             param                   4       0       null
+flag            int             param                   4       4       null
+retVal          int             local                   4       8       null
+m               int             local                   4       12      null
+t00             int             temp        1           4       16      null
+t01             int             temp                    4       20      null
+t02             int             temp                    4       24      null
+r               int             local       1           4       28      null
+t03             int             temp        1           4       32      null
+a               Matrix(5, 5 ,double)local                   200     36      null
+t04             int             temp        5           4       236     null
+t05             int             temp        5           4       240     null
+fn              int             local                   4       244     null
+sumupton        int             local                   4       248     null
+t06             int             temp        1           4       252     null
+t07             int             temp                    4       256     null
+t08             int             temp                    4       260     null
+t09             int             temp                    4       264     null
+t10             int             temp                    4       268     null
+t11             int             temp                    4       272     null
+t12             int             temp                    4       276     null
+--------------------------------------------------------------------------------
+
+==============================
+Quad Translation
+------------------------------
+	0   :	t00 = 4
+	1   :	test = t00
+
+main: 
+
+	3   :	t00 = 6
+	4   :	n = t00
+	5   :	param n
+	6   :	t01 = 1
+	7   :	param t01
+	8   :	t02 = call sumupton, 2
+	9   :	sm = t02
+	10  :	ret 
+
+sumupton: 
+
+	12  :	t00 = 1
+	13  :	t02 = n - t00
+	14  :	m = t02
+	15  :	t03 = 1
+	16  :	r = t03
+	17  :	t04 = 5
+	18  :	t05 = 5
+	19  :	goto 28
+	20  :	t06 = 1
+	21  :	t08 = m - t06
+	22  :	param t08
+	23  :	t09 = call sumupton, 1
+	24  :	fn = t09
+	25  :	t11 = n + fn
+	26  :	r = t11
+	27  :	goto 30
+	28  :	if m == 0 goto 30
+	29  :	goto 20
+	30  :	ret r
+------------------------------

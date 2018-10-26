@@ -1,0 +1,117 @@
+================================================================================
+Symbol Table: Global                                         Parent: null
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+test            int             local       1           4       0       null
+t00             int             temp        1           4       4       null
+main            int             function                4       8       main
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: main                                           Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+retVal          int             local                   4       0       null
+a               int             local       1           4       4       null
+t00             int             temp        1           4       8       null
+b               int             local       2           4       12      null
+t01             int             temp        2           4       16      null
+c               int             local                   4       20      null
+t02             int             temp                    4       24      null
+t03             int             temp                    4       28      null
+t04             int             temp                    4       32      null
+t05             int             temp                    4       36      null
+t06             int             temp                    4       40      null
+t07             int             temp                    4       44      null
+t08             int             temp                    4       48      null
+t09             int             temp                    4       52      null
+t10             int             temp        1           4       56      null
+t11             int             temp                    4       60      null
+t12             int             temp                    4       64      null
+t13             int             temp                    4       68      null
+t14             int             temp        2           4       72      null
+t15             int             temp                    4       76      null
+t16             int             temp                    4       80      null
+t17             int             temp                    4       84      null
+t18             int             temp                    4       88      null
+t19             int             temp                    4       92      null
+d               double          local                   8       96      null
+t20             double          temp                    8       104     null
+t21             double          temp                    8       112     null
+t22             double          temp                    8       120     null
+t23             int             temp                    4       128     null
+t24             int             temp                    4       132     null
+t25             int             temp                    4       136     null
+check           int             local                   4       140     null
+t26             int             temp                    4       144     null
+t27             int             temp                    4       148     null
+t28             int             temp                    4       152     null
+t29             int             temp                    4       156     null
+t30             int             temp                    4       160     null
+t31             int             temp                    4       164     null
+t32             int             temp                    4       168     null
+t33             int             temp                    4       172     null
+i               int             local                   4       176     null
+t34             int             temp                    4       180     null
+t35             int             temp                    4       184     null
+t36             int             temp                    4       188     null
+t37             int             temp                    4       192     null
+--------------------------------------------------------------------------------
+
+==============================
+Quad Translation
+------------------------------
+	0   :	t00 = 1
+	1   :	test = t00
+
+main: 
+
+	3   :	t00 = 1
+	4   :	a = t00
+	5   :	t01 = 2
+	6   :	b = t01
+	7   :	t03 = a + b
+	8   :	c = t03
+	9   :	t06 = a - b
+	10  :	c = t06
+	11  :	t08 = a
+	12  :	a = a + 1
+	13  :	t09 = a
+	14  :	a = a - 1
+	15  :	t10 = 1
+	16  :	t12 = a + t10
+	17  :	a = t12
+	18  :	t14 = 2
+	19  :	t15 = a >> t14
+	20  :	a = t15
+	21  :	t18 = a / b
+	22  :	b = t18
+	23  :	t20 = int2double(a)
+	24  :	t21 = t20 + d
+	25  :	d = t21
+	26  :	if b > a goto 29
+	27  :	goto 30
+	28  :	goto 34
+	29  :	goto 32
+	30  :	t24 = a
+	31  :	goto 34
+	32  :	t24 = b
+	33  :	goto 34
+	34  :	a = t24
+	35  :	t27 = b * c
+	36  :	t29 = a + t27
+	37  :	check = t29
+	38  :	if check < c goto 41
+	39  :	goto 44
+	40  :	goto 44
+	41  :	t32 = a | b
+	42  :	c = t32
+	43  :	goto 44
+	44  :	a = a + 1
+	45  :	t34 = b
+	46  :	b = b + 1
+	47  :	t36 = a + t34
+	48  :	i = t36
+------------------------------

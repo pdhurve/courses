@@ -1,0 +1,302 @@
+================================================================================
+Symbol Table: Global                                         Parent: null
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+test            int             local       5           4       0       null
+t00             int             temp        5           4       4       null
+d               double          local       2.3         8       8       null
+t01             double          temp        2.3         8       16      null
+i               int             local                   4       24      null
+a               int             local       4           4       28      null
+t02             int             temp        4           4       32      null
+p               ptr(int)        local                   4       36      null
+b               int             local                   4       40      null
+func            void            function                0       44      func
+c               char            local                   1       44      null
+main            int             function                4       45      main
+sumupton        int             function                4       49      sumupton
+add             int             function                4       53      add
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: func                                           Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+i               int             param                   4       0       null
+d               double          param                   8       4       null
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: main                                           Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+retVal          int             local                   4       0       null
+ae              int             local       1           4       4       null
+t00             int             temp        1           4       8       null
+be              int             local       2           4       12      null
+t01             int             temp        2           4       16      null
+ce              int             local                   4       20      null
+t02             int             temp                    4       24      null
+t03             int             temp                    4       28      null
+t04             int             temp                    4       32      null
+t05             int             temp                    4       36      null
+t06             int             temp                    4       40      null
+t07             int             temp                    4       44      null
+t08             int             temp                    4       48      null
+t09             int             temp                    4       52      null
+t10             int             temp        1           4       56      null
+t11             int             temp                    4       60      null
+t12             int             temp                    4       64      null
+t13             int             temp                    4       68      null
+t14             int             temp        2           4       72      null
+t15             int             temp                    4       76      null
+t16             int             temp                    4       80      null
+t17             int             temp                    4       84      null
+t18             int             temp                    4       88      null
+t19             int             temp                    4       92      null
+d               double          local                   8       96      null
+t20             double          temp                    8       104     null
+t21             double          temp                    8       112     null
+t22             double          temp                    8       120     null
+t23             int             temp                    4       128     null
+t24             int             temp                    4       132     null
+t25             int             temp                    4       136     null
+cehecek         int             local                   4       140     null
+t26             int             temp                    4       144     null
+t27             int             temp                    4       148     null
+t28             int             temp                    4       152     null
+t29             int             temp                    4       156     null
+t30             int             temp                    4       160     null
+t31             int             temp                    4       164     null
+t32             int             temp                    4       168     null
+t33             int             temp                    4       172     null
+ke              int             local                   4       176     null
+t34             int             temp                    4       180     null
+t35             int             temp                    4       184     null
+t36             int             temp                    4       188     null
+t37             int             temp                    4       192     null
+a               int             local       1           4       196     null
+t38             int             temp        10          4       200     null
+t39             int             temp                    4       204     null
+x               ptr(int)        local                   4       208     null
+y               int             local                   4       212     null
+t40             ptr(int)        temp                    4       216     null
+t41             ptr(null)       temp                    4       220     null
+t42             int             temp                    4       224     null
+t43             int             temp                    4       228     null
+t44             int             temp                    4       232     null
+k               int             local       5           4       236     null
+t45             int             temp        5           4       240     null
+fn              int             local                   4       244     null
+sumupton        int             local                   4       248     null
+t46             int             temp                    4       252     null
+t47             int             temp        1           4       256     null
+b               int             local       2           4       260     null
+t48             int             temp        2           4       264     null
+c               int             local                   4       268     null
+t49             int             temp                    4       272     null
+t50             int             temp                    4       276     null
+t51             int             temp                    4       280     null
+t52             int             temp                    4       284     null
+check           int             local                   4       288     null
+t53             int             temp                    4       292     null
+t54             int             temp                    4       296     null
+t55             int             temp                    4       300     null
+t56             int             temp                    4       304     null
+t57             int             temp                    4       308     null
+t58             int             temp                    4       312     null
+t59             int             temp                    4       316     null
+t60             int             temp                    4       320     null
+i               int             local                   4       324     null
+t61             int             temp                    4       328     null
+v               int             local       5           4       332     null
+t62             int             temp        5           4       336     null
+t63             int             temp        1           4       340     null
+t64             int             temp                    4       344     null
+t65             int             temp        2           4       348     null
+t66             int             temp                    4       352     null
+t67             int             temp        1           4       356     null
+t68             int             temp                    4       360     null
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: sumupton                                       Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+n               int             param                   4       0       null
+retVal          int             local                   4       4       null
+m               int             local                   4       8       null
+t00             int             temp        1           4       12      null
+t01             int             temp                    4       16      null
+t02             int             temp                    4       20      null
+r               int             local       1           4       24      null
+t03             int             temp        1           4       28      null
+fn              int             local                   4       32      null
+factorial       int             local                   4       36      null
+t04             int             temp        1           4       40      null
+t05             int             temp                    4       44      null
+t06             int             temp                    4       48      null
+t07             int             temp                    4       52      null
+t08             int             temp                    4       56      null
+t09             int             temp                    4       60      null
+t10             int             temp                    4       64      null
+--------------------------------------------------------------------------------
+
+================================================================================
+Symbol Table: add                                            Parent: Global
+--------------------------------------------------------------------------------
+Name            Type            Category    Init Val    Size    Offset  Nest
+--------------------------------------------------------------------------------
+a               int             param                   4       0       null
+b               int             param       5           4       4       null
+retVal          int             local                   4       8       null
+t00             int             temp        10          4       12      null
+t01             int             temp                    4       16      null
+t02             int             temp        5           4       20      null
+c               int             local                   4       24      null
+t03             int             temp                    4       28      null
+t04             int             temp                    4       32      null
+t05             int             temp                    4       36      null
+--------------------------------------------------------------------------------
+
+==============================
+Quad Translation
+------------------------------
+	0   :	t00 = 5
+	1   :	test = t00
+	2   :	t01 = 2.3
+	3   :	d = t01
+	4   :	t02 = 4
+	5   :	a = t02
+
+main: 
+
+	7   :	t00 = 1
+	8   :	ae = t00
+	9   :	t01 = 2
+	10  :	be = t01
+	11  :	t03 = ae + be
+	12  :	ce = t03
+	13  :	t06 = ae - be
+	14  :	ce = t06
+	15  :	t08 = ae
+	16  :	ae = ae + 1
+	17  :	t09 = ae
+	18  :	ae = ae - 1
+	19  :	t10 = 1
+	20  :	t12 = ae + t10
+	21  :	ae = t12
+	22  :	t14 = 2
+	23  :	t15 = ae >> t14
+	24  :	ae = t15
+	25  :	t18 = ae / be
+	26  :	be = t18
+	27  :	t20 = int2double(ae)
+	28  :	t21 = t20 + d
+	29  :	d = t21
+	30  :	if be > ae goto 33
+	31  :	goto 34
+	32  :	goto 38
+	33  :	goto 36
+	34  :	t24 = ae
+	35  :	goto 38
+	36  :	t24 = be
+	37  :	goto 38
+	38  :	ae = t24
+	39  :	t27 = be * ce
+	40  :	t29 = ae + t27
+	41  :	cehecek = t29
+	42  :	if cehecek < ce goto 45
+	43  :	goto 48
+	44  :	goto 48
+	45  :	t32 = ae | be
+	46  :	ce = t32
+	47  :	goto 48
+	48  :	ae = ae + 1
+	49  :	t34 = be
+	50  :	be = be + 1
+	51  :	t36 = ae + t34
+	52  :	ke = t36
+	53  :	t38 = 10
+	54  :	a = t38
+	55  :	t40 = &y
+	56  :	x = t40
+	57  :	t42 = *x
+	58  :	*x = y
+	59  :	t43 = *x
+	60  :	y = t43
+	61  :	t45 = 5
+	62  :	k = t45
+	63  :	param k
+	64  :	t46 = call sumupton, 1
+	65  :	fn = t46
+	66  :	t47 = 1
+	67  :	a = t47
+	68  :	t48 = 2
+	69  :	b = t48
+	70  :	t50 = a + b
+	71  :	c = t50
+	72  :	t52 = a
+	73  :	a = a - 1
+	74  :	t54 = b * c
+	75  :	t56 = a + t54
+	76  :	check = t56
+	77  :	if check < c goto 80
+	78  :	goto 83
+	79  :	goto 83
+	80  :	t59 = a | b
+	81  :	c = t59
+	82  :	goto 83
+	83  :	a = a + 1
+	84  :	i = a
+	85  :	t62 = 5
+	86  :	v = t62
+	87  :	t63 = 1
+	88  :	i = t63
+	89  :	t65 = 2
+	90  :	i = t65
+	91  :	goto 94
+	92  :	if v == 0 goto 100
+	93  :	goto 97
+	94  :	if i == 0 goto 100
+	95  :	goto 92
+	96  :	goto 100
+	97  :	t67 = 1
+	98  :	i = t67
+	99  :	goto 100
+	100 :	ret 
+
+sumupton: 
+
+	102 :	t00 = 1
+	103 :	t02 = n - t00
+	104 :	m = t02
+	105 :	t03 = 1
+	106 :	r = t03
+	107 :	goto 116
+	108 :	t04 = 1
+	109 :	t06 = m - t04
+	110 :	param t06
+	111 :	t07 = call factorial, 1
+	112 :	fn = t07
+	113 :	t09 = n + fn
+	114 :	r = t09
+	115 :	goto 118
+	116 :	if m == 0 goto 118
+	117 :	goto 108
+	118 :	ret r
+
+add: 
+
+	120 :	t00 = 10
+	121 :	a = t00
+	122 :	t02 = 5
+	123 :	b = t02
+	124 :	t04 = a + b
+	125 :	c = t04
+	126 :	ret c
+------------------------------
